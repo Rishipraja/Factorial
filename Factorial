@@ -1,0 +1,11 @@
+def fact(n):
+      if n == 1:
+          return 1
+      else:
+          return (n * fact(n-1))
+n = int(input('\n enter the number = '))
+if n<= 0:
+    print("\n factorial of number less then 1 dose not exists")
+else:
+    print("\n factorial of given number is",fact(n))
+print("\n rishi prajapati")
